@@ -1,4 +1,5 @@
-neubot_android
-==============
+Neubot for Android
+==================
 
-Repository for working on Neubot for Android
+This repository will contain the sources of the prototype
+Neubot application for Android.
