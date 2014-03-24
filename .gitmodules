@@ -1,0 +1,3 @@
+[submodule "jni/libevent"]
+	path = jni/libevent
+	url = https://github.com/ventureresearch/libevent
