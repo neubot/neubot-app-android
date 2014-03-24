@@ -1,3 +1,6 @@
 [submodule "jni/libevent"]
 	path = jni/libevent
 	url = https://github.com/ventureresearch/libevent
+[submodule "jni/libneubot"]
+	path = jni/libneubot
+	url = https://github.com/bassosimone/libneubot
