@@ -1,4 +1,4 @@
-%module(directors="1") libneubot;
+%module(directors="1") neubotjava;
 %feature("director");
 %include "./libneubot/neubot.hh"
 %{
