@@ -28,13 +28,9 @@ public class MainActivity extends Activity {
 		
 		System.loadLibrary("neubotjava");
 		
-		Log.d("Error" , "Tombstone1");
 		Poller poller = new Poller();
-		Log.d("Error" , "Tombstone2");
 		EchoServer echoServer = new EchoServer(poller , 0 , "0.0.0.0" , "12345");
-		Log.d("Error" , "Tombstone3");
 		poller.loop();
-		Log.d("Error" , "Tombstone4");
 			
 	}
 
