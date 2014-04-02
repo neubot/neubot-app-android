@@ -26,7 +26,7 @@ public class MainActivity extends Activity {
 					.add(R.id.container, new PlaceholderFragment()).commit();
 		}
 		
-		System.loadLibrary("neubotjava");
+		System.loadLibrary("neubotjava");  /* XXX */
 		
 		Poller poller = new Poller();
 		EchoServer echoServer = new EchoServer(poller , 0 , "0.0.0.0" , "12345");
