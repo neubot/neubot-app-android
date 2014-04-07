@@ -43,7 +43,7 @@ public class MainActivity extends Activity {
 					.add(R.id.container, new PlaceholderFragment()).commit();
 		}*/
 		
-		System.loadLibrary("neubotjava");  /* XXX */
+		System.loadLibrary("neubotjava"); 
 		
 		startB = (Button)findViewById(R.id.startB);
 		startB.setOnClickListener(new View.OnClickListener() {
